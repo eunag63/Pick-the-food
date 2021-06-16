@@ -5,8 +5,5 @@ from .models import Food
 
 def index(request):
     foods = Food.objects.all()
-    str = ''
-    for food in foods:
-        str += "<p>{}<br>".format(food.name)
-        str += food.introduction+"</p>"
-    return HttpResponse(str)
+
+    return render(request, 'pickFood/index.html')
