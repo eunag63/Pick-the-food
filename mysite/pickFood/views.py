@@ -5,5 +5,8 @@ from .models import Food
 
 def index(request):
     foods = Food.objects.all()
+    context = {'foods':foods}
+    return render(request, 'pickFood/index.html', context)
 
-    return render(request, 'pickFood/index.html')
+def click(request):
+    return render(request, 'pickFood/click.html')
