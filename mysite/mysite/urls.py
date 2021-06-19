@@ -20,6 +20,7 @@ import pickFood.views
 urlpatterns = [
     path('', include('pickFood.urls')),
     path('admin/', admin.site.urls),
+    path('', pickFood.views.index, name='index'),
     path('click/', pickFood.views.click, name='click'),
-    
+
 ]

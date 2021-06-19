@@ -12,9 +12,12 @@ grid-row-gap: 0px;
 }
 
 .div1 { grid-area: 1 / 1 / 2 / 6; }
-.div2 { grid-area: 3 / 1 / 5 / 6; text-align: center;}
+.div2 { grid-area: 3 / 1 / 5 / 6; }
 .div3 { grid-area: 5 / 1 / 6 / 6; }
 
+.div2, .div3{
+  text-align: center;
+}
 .top{
   color: #FFFFFF;
   margin: 2%
@@ -29,6 +32,7 @@ h1{
   font-family: "bedal";
   margin: 5%;
 }
+
 .btn{
   border: none;
   font-family: "bedal";
