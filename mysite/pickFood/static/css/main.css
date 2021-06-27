@@ -39,6 +39,8 @@ grid-row-gap: 0px;
 
 .parent{
   background-color: #F95700;
+  height: 100%;
+  width: 100%;
 }
 .div2, .div3{
   text-align: center;
