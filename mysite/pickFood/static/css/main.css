@@ -17,8 +17,8 @@ html, body{
   height: 30%;
   width: 100%;
 }
-.two{
-  height: 100px;
+.child{
+  height: 100%;
   width: 100%;
   background-color: green;
 }
@@ -50,6 +50,7 @@ grid-row-gap: 0px;
   margin-left: : 2%;
   padding-top: 2%;
 }
+
 @font-face {
   src: url("BMHANNAPro.ttf");
   font-family: "bedal";
