@@ -45,7 +45,8 @@ grid-row-gap: 0px;
 }
 .top{
   color: #FFFFFF;
-  margin-left: : 2%
+  margin-left: : 2%;
+  padding-top: 2%;
 }
 @font-face {
   src: url("BMHANNAPro.ttf");
