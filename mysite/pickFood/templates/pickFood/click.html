@@ -9,6 +9,8 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>오늘은 뭐먹지</title>
   <link rel="stylesheet" href="{% static 'css/main.css' %}">
+  <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="/static/js/scroll_menu.js"></script>
 </head>
 
 <body>
@@ -21,13 +23,15 @@
         <h1>오늘은 <br> {{food.name}} <br>어때요<br></h1>
       </div>
       <div class="div3">
-        <a href="#div4" class="btn" onclick="fnMove('1')">좋아요 </a>
+        <a href="#div4" class="btn" id="good">좋아요 </a>
         <a href="{% url 'index' %}" class="btn">아쉬워요</a>
       </div>
     </div>
 
     <div class="child">
       <div id="div4">페이지 이동 성공!</div>
+      <div class=""></div>
+      <div class=""></div>
     </div>
   </div>
 
