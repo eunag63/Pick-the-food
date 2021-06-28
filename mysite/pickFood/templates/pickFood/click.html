@@ -20,13 +20,20 @@
       <h1>오늘은 <br> {{food.name}} <br>어때요<br></h1>
     </div>
     <div class="div3">
-      <a href="#child" class="btn">좋아요 </a>
+      <a href="#child" class="btn" onclick="fnMove('1')">좋아요 </a>
       <a href="{% url 'index' %}" class="btn">아쉬워요</a>
     </div>
   </div>
   <div class="child">
     제발 좀 나와라
   </div>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+  <script>
+    function fnMove(seq){
+        var offset = $("#child" + seq).offset();
+        $('html, body').animate({scrollTop : offset.top}, 400);
+    }
+  </script>
 
 
 </body>
