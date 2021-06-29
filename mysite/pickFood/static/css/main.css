@@ -47,9 +47,9 @@ body{
 .shortcut1{
   border: 1px solid red;
   float: left;
-  width: 30%;
-  height: 65%;
-  margin-left: 2%;
+  width: 20%;
+  height: 75%;
+  margin-left: 5%;
   box-sizing: border-box;
 }
 .shortcut2{
