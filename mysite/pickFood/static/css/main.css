@@ -34,8 +34,9 @@ body{
   width: 100%;
 }
 .div5{
-  width: 90%;
+  width: 100%;
   height: 65%;
+  text-align: center;
 }
 .shortcut1{
   border: 1px solid red;
