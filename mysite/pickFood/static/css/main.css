@@ -30,7 +30,7 @@ body{
   background-color:#F95700;
 }
 #div4{
-  height: 20%;
+  height: 25%;
   width: 100%;
 }
 .div5{
@@ -72,7 +72,7 @@ body{
   border-radius: 8%;
 }
 
-.recipe{
+.recipe, .rstrn{
   width: 85%;
 }
 
