@@ -29,7 +29,29 @@ body{
   width: 100%;
   background-color:#F95700;
 }
-
+.div5{
+  width: 90%;
+  margin: 10px auto;
+}
+.shortcut1{
+  border: 1px solid red;
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+}
+.shortcut2{
+  border: 1px solid green;
+  float: left;
+  margin-left: 5%;
+  width: 50%;
+  box-sizing: border-box;
+}
+.shortcut3{
+  border: 1px solid blue;
+  float: right;
+  width: 50%;
+  box-sizing: border-box;
+}
 /*
 .parent {
 display: grid;
