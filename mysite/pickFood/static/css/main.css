@@ -45,42 +45,29 @@ body{
   margin-left: 2%;
 }
 .shortcut1{
-  border: 1px solid red;
   float: left;
   width: 20%;
   height: 75%;
   margin-left: 5%;
   box-sizing: border-box;
+  background-color: #FB7730;
 }
 .shortcut2{
-  border: 1px solid green;
   float: left;
   margin-left: 4%;
   width: 20%;
   height: 75%;
   box-sizing: border-box;
+  background-color: #FB7730;
 }
 .shortcut3{
-  border: 1px solid blue;
   float: right;
   width: 20%;
   height: 75%;
   margin-right: 5%;
   box-sizing: border-box;
+  background-color: #FB7730;
 }
-/*
-.parent {
-display: grid;
-grid-template-columns: repeat(5, 1fr);
-grid-template-rows: repeat(5, 1fr);
-grid-column-gap: 0px;
-grid-row-gap: 0px;
-}
-
-.div1 { grid-area: 1 / 1 / 2 / 6; }
-.div2 { grid-area: 3 / 1 / 5 / 6; }
-.div3 { grid-area: 5 / 1 / 6 / 6; }*/
-
 
 .parent{
   background-color: #F95700;
