@@ -72,6 +72,12 @@ body{
   border-radius: 8%;
 }
 
+.recipe{
+  width: 85%;
+}
+
+
+
 .parent{
   background-color: #F95700;
   height: 100%;
