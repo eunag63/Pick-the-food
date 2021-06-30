@@ -46,10 +46,10 @@ body{
 }
 .bigText{
   height: 30%;
+  font-size: xx-large;
   font-family: "bedal";
   color: #FFFFFF;
   margin-top: 32%;
-  margin-bottom: 10%;
 }
 .smallText{
   height: 70%;
@@ -90,7 +90,7 @@ body{
 
 .foot{
   text-align: center;
-  font-size: 33px;
+  font-size: xxx-large;
   font-family: "bedal";
   color: #FFFFFF;
 }
