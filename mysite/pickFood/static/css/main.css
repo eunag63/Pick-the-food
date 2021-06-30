@@ -48,10 +48,13 @@ body{
   height: 30%;
   font-family: "bedal";
   color: #FFFFFF;
-  margin-top: 50%;
+  margin-top: 32%;
+  margin-bottom: 10%;
 }
 .smallText{
   height: 70%;
+  text-align: justify;
+  color: #FFFFFF;
 }
 .shortcut1{
   float: left;
