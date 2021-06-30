@@ -49,12 +49,14 @@ body{
   font-size: xx-large;
   font-family: "bedal";
   color: #FFFFFF;
-  margin-top: 32%;
+  margin-top: 25%;
 }
 .smallText{
   height: 70%;
   text-align: justify;
   color: #FFFFFF;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .shortcut1{
   float: left;
@@ -83,9 +85,23 @@ body{
   background-color: #FB7730;
   border-radius: 8%;
 }
+.img{
+  height: 60%;
+}
+.shortText1{
+  height: 13%;
+  color: #FFFFFF;
+  font-size: x-large;
+  font-family: "bedal";
+}
+.shortText2{
+  height: 20%;
+  color: #FFFFFF;
+  margin-top: 8%;
+}
 
 .recipe, .rstrn{
-  width: 85%;
+  height: 100%;
 }
 
 .foot{
