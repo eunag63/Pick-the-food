@@ -47,7 +47,7 @@ body{
 .shortcut1{
   float: left;
   width: 20%;
-  height: 75%;
+  height: 65%;
   margin-left: 5%;
   box-sizing: border-box;
   background-color: #FB7730;
@@ -57,7 +57,7 @@ body{
   float: left;
   margin-left: 4%;
   width: 20%;
-  height: 75%;
+  height: 65%;
   box-sizing: border-box;
   background-color: #FB7730;
   border-radius: 8%;
@@ -65,7 +65,7 @@ body{
 .shortcut3{
   float: right;
   width: 20%;
-  height: 75%;
+  height: 65%;
   margin-right: 4%;
   box-sizing: border-box;
   background-color: #FB7730;
