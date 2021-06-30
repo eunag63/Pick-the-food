@@ -93,11 +93,13 @@ body{
   color: #FFFFFF;
   font-size: x-large;
   font-family: "bedal";
+  margin-top: 4%;
 }
 .shortText2{
   height: 20%;
   color: #FFFFFF;
-  margin-top: 8%;
+  margin-top: 0%;
+
 }
 
 .recipe, .rstrn, .dlvry{
