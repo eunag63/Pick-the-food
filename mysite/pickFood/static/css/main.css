@@ -13,11 +13,11 @@ body{
 }
 
 .div1{
-  height: 20%;
+  height: 26%;
   width: 100%;
 }
 .div2{
-  height: 25%;
+  height: 32%;
   width: 100%;
 }
 .div3{
@@ -43,6 +43,15 @@ body{
   width: 18%;
   height: 70%;
   margin-left: 5%;
+}
+.bigText{
+  height: 30%;
+  font-family: "bedal";
+  color: #FFFFFF;
+  margin-top: 50%;
+}
+.smallText{
+  height: 70%;
 }
 .shortcut1{
   float: left;
