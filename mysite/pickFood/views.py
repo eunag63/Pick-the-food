@@ -22,6 +22,4 @@ def pick(request):
     return render(request, 'pickFood/click.html', {'food':food})
 
 def click(request):
-    click += 1
-    click.save()
-    return render(request, 'pickFood/click.html', {click})
+    return render(request, 'pickFood/click.html', context)

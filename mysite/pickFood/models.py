@@ -8,5 +8,12 @@ class Food(models.Model):
     def __str__(self):
         return self.name
 
-class Count(models.Model):
-    num = models.IntegerField(default = 0)
+
+
+class Counts(models.Model):
+    view_count = models.IntegerField(default=0)
+    
+    @property
+    def update_counter(self):
+        self.view_count = self.view_count + 1
+        self.save()
