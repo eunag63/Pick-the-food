@@ -7,3 +7,6 @@ class Food(models.Model):
 
     def __str__(self):
         return self.name
+
+class Count(models.Model):
+    num = models.IntegerField(default = 0)
