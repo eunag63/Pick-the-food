@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 # Create your views here.
-from .models import Food, Post
+from .models import Food
 
 from django.db.models import Max
 import random
@@ -25,15 +25,3 @@ def pick(request):
 
 def click(request):
     return render(request, 'pickFood/click.html', context)
-
-class PostDetail(HitCountDetailView):
-    model = Post
-    template_name = 'pickFood/click.html'
-    count_hit = True
-
-    def get_context_data(self, **kwargs):
-        context = super(PostDetail, self).get_context_data(**kwargs)
-        context.update({
-            'popular_posts': Post.objects.order_by('-hit_count_generic__hits')[:3],
-        })
-        return context
